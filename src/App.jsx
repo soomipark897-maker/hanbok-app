@@ -50,7 +50,7 @@ const steps = [
   {
     key: "tone",
     title: "원하는 색감을 골라주세요",
-    subtitle: "1단계에서 고른 부위 기준으로 색감 이미지를 보여드릴게요.",
+    subtitle: "세 가지 색감 이미지를 보여드릴게요.",
     options: [
       {
         value: "pastel",
@@ -84,7 +84,7 @@ const steps = [
   {
     key: "fabric",
     title: "원단 질감을 골라주세요",
-    subtitle: "1단계에서 고른 부위 기준으로 유광/무광 이미지를 보여드릴게요.",
+    subtitle: "유광/무광 이미지를 보여드릴게요.",
     options: [
       {
         value: "glossy",
@@ -109,7 +109,7 @@ const steps = [
   {
     key: "jeogoriType",
     title: "저고리 형태를 골라주세요",
-    subtitle: "1단계에서 고른 부위 흐름에 맞춰 이미지를 보여드릴게요.",
+    subtitle: "두 종류의 저고리를 보여드릴게요.",
     options: [
       {
         value: "basic",
@@ -134,7 +134,7 @@ const steps = [
   {
     key: "skirtType",
     title: "치마 형태를 골라주세요",
-    subtitle: "드레스처럼 보이는 느낌과 볼륨감이 달라져요.",
+    subtitle: "치마 형태에 따라 볼륨감이 달라져요.",
     options: [
       {
         value: "split",
@@ -195,7 +195,7 @@ function findBestResult(answers) {
       .filter(Boolean)
       .join(" · "),
     summary:
-      "선택한 조건을 바탕으로 정리한 혼주 한복 취향 결과예요. 최종 한복 이미지는 없이 조합만 깔끔하게 보여줍니다.",
+      "선택한 조건을 바탕으로 한복 취향을 정리해보았습니다. 4월 16일에 함께 보시면서 결정해주시면 감사하겠습니다~!",
   };
 }
 
