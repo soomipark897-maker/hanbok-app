@@ -345,7 +345,7 @@ export default function HanbokTournamentApp() {
           <p style={{ margin: "10px 0 0", fontSize: 14, lineHeight: 1.7, color: "#64748b" }}>
             5개의 취향을 고르시고 결과 카드를 저장해
             <br />
-            저희(수미&영환)에게 알려주세요~!
+            저희(영환&수미)에게 알려주세요~!
           </p>
         </motion.div>
 
